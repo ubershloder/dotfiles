@@ -1,0 +1,39 @@
+
+# All SpaceVim option below [option] section
+[options]
+colorscheme = "SpaceVim"
+    colorscheme_bg = "dark"
+    # Disable guicolors in basic mode, many terminal do not support 24bit
+    # true colors
+    enable_guicolors = true
+    # Disable statusline separator, if you want to use other value, please
+    # install nerd fonts
+    statusline_separator = "fire"
+    statusline_iseparator = "fire"
+    buffer_index_type = 10
+    enable_tabline_filetype_icon = true
+    enable_statusline_mode = false
+
+# Enable autocomplete layer
+[[layers]]
+name = 'autocomplete'
+auto_completion_return_key_behavior = "complete"
+auto_completion_tab_key_behavior = "smart"
+
+[[layers]]
+name = 'shell'
+default_position = 'top'
+default_height = 50
+
+[[custom_plugins]]
+    repo = "lilydjwg/colorizer"
+    on_cmd = ["ColorHighlight", "ColorToggle"]
+    merged = false
+
+[[custom_plugins]]
+    repo = "https://gitlab.com/code-stats/code-stats-vim.git"
+    merged = false
+
+
+ 
+
