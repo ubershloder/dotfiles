@@ -1,2 +1,2 @@
-# conf
-my configs just to use them everywhere i want
+# My dotfiles
+one day ill fix and remove everything what is extra in this repo...
